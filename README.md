@@ -2,6 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![](todolist.PNG)
+
+## Demo
+
+[To-Do list](https://juliaodziewa.github.io/todo-list-react/)
+
+## Description
+
+With this simple To-Do list you can organised your daily life. You simply write tasks and add them to the list. Completed task can be marked done or deleted. You cn also mark all your tasks done and then hide them.
+
+## Technologies
+
+- HTML
+- BEM
+- CSS
+    - GRID
+- JS/ES6+
+- REACT
+
 ## Available Scripts
 
 In the project directory, you can run:
