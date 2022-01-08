@@ -12,22 +12,22 @@ export const StyledForm = styled.form`
 
 export const Input = styled.input`
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid ${({ theme }) => theme.color.grey};
 `;
 
 export const Button = styled.button`
     padding: 10px;
-    background-color: hsl(180, 100%, 25%);
+    background-color: ${({ theme }) => theme.color.teal};
     color: white;
     border: none;
     transition: 0.3s;
 
     &:hover {
-        background-color: hsl(180, 100%, 30%);
+        background-color: ${({ theme }) => theme.color.darkCyan};
         transform: scale(1.1);
     }
 
     &:active {
-        background-color: hsl(180, 100%, 35%);
+        background-color: ${({ theme }) => theme.color.persianGreen};
     }
 `;

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
@@ -23,12 +23,12 @@ function App() {
 
   return (
     <Container>
-      <Header title="Lista zadań" />
+      <Header title={"Lista zadań"} />
       <Section title="Dodaj nowe zdanie"
         body={<Form addNewTask={addNewTask} />}
       />
       <Section
-        title="Lista zadań"
+        title={"Lista zadań"}
         body={
           <Tasks
             tasks={tasks}

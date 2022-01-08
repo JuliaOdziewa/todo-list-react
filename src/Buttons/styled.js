@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
     background-color: transparent;
-    color: teal;
+    color: ${({ theme }) => theme.color.teal};
     border: none;
     margin: 0 0 0 20px;
     transition: color 0.3s;
@@ -18,10 +18,10 @@ export const Button = styled.button`
     }
 
     &:hover {
-        color: hsl(180, 100%, 35%);
+        color: ${({ theme }) => theme.color.mosque};
     }
 
     &:active {
-        color: #ccc;
+        color: ${({ theme }) => theme.color.silver};
     }
 `;
