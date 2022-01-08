@@ -24,4 +24,8 @@ export const Button = styled.button`
     &:active {
         color: ${({ theme }) => theme.color.silver};
     }
+
+    &:disabled {
+        color: ${({ theme }) => theme.color.silver};
+    }
 `;
