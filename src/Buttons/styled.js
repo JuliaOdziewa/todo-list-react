@@ -18,11 +18,11 @@ export const Button = styled.button`
     }
 
     &:hover {
-        color: ${({ theme }) => theme.color.mosque};
+        filter: brightness(100%);
     }
 
     &:active {
-        color: ${({ theme }) => theme.color.silver};
+        filter: brightness(120%);
     }
 
     &:disabled {

@@ -23,11 +23,11 @@ export const Button = styled.button`
     transition: 0.3s;
 
     &:hover {
-        background-color: ${({ theme }) => theme.color.darkCyan};
+        filter: brightness(110%);
         transform: scale(1.1);
     }
 
     &:active {
-        background-color: ${({ theme }) => theme.color.persianGreen};
+        filter: brightness(120%);
     }
 `;

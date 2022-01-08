@@ -37,22 +37,22 @@ export const Button = styled.button`
         background-color: ${({ theme }) => theme.color.forestGreen};
 
         &:hover {
-            background-color: ${({ theme }) => theme.color.limeGreen};
+            filter: brightness(110%);
         }
 
         &:active {
-            background-color: ${({ theme }) => theme.color.pastelGreen};
+            filter: brightness(120%);
         }
     `}
     ${({ remove }) => remove && css`
         background-color: ${({ theme }) => theme.color.crimson};
 
     &:hover {
-        background-color: ${({ theme }) => theme.color.amaranth};
+        filter: brightness(110%);
     }
 
     &:active {
-        background-color: ${({ theme }) => theme.color.darkPink};
+        filter: brightness(120%);
     }
     `}
 `;
