@@ -8,16 +8,18 @@
 
 ## Description
 
-With this simple To-Do list you can organised your daily life. You simply write tasks and add them to the list. Completed task can be marked done or deleted. You cn also mark all your tasks done and then hide them.
+With this simple To-Do list you can organised your daily life. You simply write tasks and add them to the list. Completed task can be marked done or deleted. You can also mark all your tasks done and then hide them.
 
 ## Technologies
 
 - HTML
 - BEM
 - CSS
-    - GRID
+- GRID
+- STYLED COMPONENTS
 - JS/ES6+
 - REACT
+- REACT HOOKS
 
 ## Available Scripts
 
